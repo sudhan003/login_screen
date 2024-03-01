@@ -1,1 +1,3 @@
-Login Screen![Screenshot (147)](https://github.com/sudhan003/login_screen/assets/110588490/e843d9ec-bbfb-48d7-a642-5d23942f93e8)
+Login Screen
+
+![login_screen](https://github.com/sudhan003/login_screen/assets/110588490/c550e17a-e0ad-48e1-80ab-91f1d6fdd79e)
