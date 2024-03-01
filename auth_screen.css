@@ -1,0 +1,198 @@
+* {
+  font-family: monospace;
+}
+body {
+  height: 800px;
+  background-image: linear-gradient(
+    to right,
+    rgb(124, 61, 227),
+    rgb(74, 42, 126),
+    rgb(26, 5, 99)
+  );
+  position: relative;
+}
+
+p {
+  color: white;
+  margin: 20% 10%;
+  text-align: center;
+  position: relative;
+  font-size: 18px;
+
+  letter-spacing: 0px;
+}
+
+.main {
+  height: 90%;
+  width: 70%;
+  margin: 5% 15%;
+  border-radius: 100px;
+  background-color: white;
+  position: relative;
+}
+
+.design {
+  height: 100%;
+  width: 60%;
+  border-radius: 100px 0px 0px 100px;
+  background-color: rgb(157, 83, 255);
+  background-image: linear-gradient(
+    to top right,
+    rgb(117, 76, 225),
+    rgb(180, 121, 253)
+  );
+
+  float: left;
+
+  position: relative;
+}
+
+.design img {
+  height: 40%;
+  width: 40%;
+  margin: 20% 30% 0% 30%;
+  position: relative;
+}
+
+.login-form {
+  height: 100%;
+  width: 40%;
+  background-color: white;
+  position: relative;
+  border-radius: 0px 100px 100px 0px;
+  display: inline-block;
+}
+
+.welcome-card {
+  margin-top: 50px;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  width: 280px;
+  border-radius: 0px 50px 50px 0px;
+  background-image: linear-gradient(
+    to right,
+    rgb(117, 76, 225),
+    rgb(180, 121, 253)
+  );
+}
+
+.card-border {
+  height: 80px;
+  width: 20px;
+  background-color: rgb(105, 67, 200);
+  float: left;
+}
+.welcome-text {
+  /* margin: 10% 10% 10% 10%; */
+  /* margin-top: 30%; */
+  height: 70px;
+  width: fit-content;
+  margin: 0px 15px;
+  /* padding:0px 20px 5px 20px; */
+  color: white;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  display: block;
+}
+
+.welcome-card h1 {
+
+  padding: 20px;
+  position: relative;
+  font-family: monospace;
+  letter-spacing: 1px;
+  font-size: 30px;
+}
+form {
+  text-align: center;
+
+  margin: 0 auto; 
+}
+
+form h1 {
+  color: rgb(112, 106, 131);
+  padding: 10% 17% 5% 17%;
+  font-weight: 200px;
+}
+
+form input {
+    padding-bottom: 15px;
+  display: flex;
+  margin: 25px 25%;
+
+  height: 30px;
+  width: 50%;
+
+  display: inline-block; /* Change display to inline-block */
+
+  /* vertical-align: middle; */
+
+  border: none;
+  border-bottom: 3px solid rgb(112, 106, 131);
+  border-spacing: 60px;
+}
+input[type="text"],input[type= "password"]{
+
+font-size:20px;
+}
+input:focus{
+   outline: none;
+
+}
+input::placeholder {
+  font: 1.2em sans-serif;
+  letter-spacing: 2px;
+}
+
+#username {
+  display: flex;
+}
+
+.login-button {
+  width: 200px;
+  height: 70px;
+  background-image: linear-gradient(
+    to right,
+    rgb(117, 76, 225),
+    rgb(180, 121, 253)
+  );
+  border-radius: 50px 50px;
+  color: white;
+  text-align: center;
+  justify-content: start;
+  border: none;
+  display: block;
+  margin: 20px auto; /* Center-align the button horizontally */
+}
+
+.login-button h1 {
+  padding: 0px 0px 10px 0px;
+  height: 20px;
+  color: white;
+  font-weight: lighter;
+  font-family: monospace;
+}
+
+.text-button {
+  width: fit-content;
+  margin: 0px auto;
+  color: rgb(172, 168, 183);
+  background-color: inherit;
+  cursor: pointer;
+  border: none;
+  font-size: x-large;
+  display: flex;
+}
+
+.text-button:hover {
+  color: rgb(53, 52, 57);
+}
+
+.forget {
+  text-decoration: underline solid rgb(53, 52, 57);
+  text-underline-offset: 10px;
+  margin-top: 60px;
+}
